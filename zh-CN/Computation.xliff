@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="zh-CN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>Robotics</source>
+        <target>机器人学</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>Motion planning and obstacle avoidance is a key challenge in robotics applications. While previous work succeeds to provide excellent solutions for known environments, sensor-based motion planning in new and dynamic environments remains difficult. In this work we address sensor-based motion planning from a learning perspective. Motivated by recent advances in visual recognition, we argue the importance of learning appropriate representations for motion planning. We propose a new obstacle representation based on the PointNet architecture and train it jointly with policies for obstacle avoidance. We experimentally evaluate our approach for rigid body motion planning in challenging environments and demonstrate significant improvements of the state of the art in terms of accuracy and efficiency.</source>
+        <target>运动规划和避障是机器人应用中的一个关键挑战。虽然以前的工作成功地为已知环境提供了优秀的解决方案，但在新的动态环境中基于传感器的运动规划仍然很困难。在这项工作中，我们从学习的角度处理基于传感器的运动规划。由于最近视觉识别的进展，我们认为学习适当的表示运动规划的重要性。提出了一种基于点网结构的障碍物表示方法，并结合避障策略对其进行了训练。我们通过实验评估了我们在具有挑战性的环境下进行刚体运动规划的方法，并证明了该方法在精度和效率方面的显著改进。</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="zh-CN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>In this paper, we present a new robotic system to perform defect inspection tasks over free-form specular surfaces. The autonomous procedure is achieved by a six-DOF manipulator, equipped with a line scan camera and a high-intensity lighting system. Our method first uses the object's CAD mesh model to implement a K-means unsupervised learning algorithm that segments the object's surface into areas with similar curvature. Then, the scanning path is computed by using an adaptive algorithm that adjusts the camera's ROI to observe regions with irregular shapes properly. A novel iterative closest point-based projection registration method that robustly localizes the object in the robot's coordinate frame system is proposed to deal with the blind spot problem of specular objects captured by depth sensors. Finally, an image processing pipeline automatically detects surface defects in the captured high-resolution images. A detailed experimental study with a vision-guided robotic scanning system is reported to validate the proposed methodology.</source>
+        <target>在本文中，我们提出了一个新的机器人系统来执行缺陷检测任务的自由形状镜面。这个自主过程是由一个六自由度的机械手完成的，它配备了一个线扫描摄像机和一个高强度的照明系统。我们的方法首先使用对象的CAD网格模型来实现K-means无监督学习算法，该算法将对象的表面分割成具有相似曲率的区域。然后，利用自适应算法对摄像机的感兴趣区域进行调整，以正确地观察不规则形状区域，计算出扫描路径。摘要针对深度传感器捕获高光目标的盲点问题，提出了一种基于迭代最近点的投影配准方法，该方法在机器人坐标系中对目标进行鲁棒定位。最后，图像处理管道自动检测捕获的高分辨率图像中的表面缺陷。一个详细的实验研究与视觉引导机器人扫描系统的报告，以验证提出的方法。</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>18.0</source>
+        <target>18.0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>Robotics</source>
+        <target>Robotics</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>Motion planning and obstacle avoidance is a key challenge in robotics applications. While previous work succeeds to provide excellent solutions for known environments, sensor-based motion planning in new and dynamic environments remains difficult. In this work we address sensor-based motion planning from a learning perspective. Motivated by recent advances in visual recognition, we argue the importance of learning appropriate representations for motion planning. We propose a new obstacle representation based on the PointNet architecture and train it jointly with policies for obstacle avoidance. We experimentally evaluate our approach for rigid body motion planning in challenging environments and demonstrate significant improvements of the state of the art in terms of accuracy and efficiency.</source>
+        <target>Motion planning and obstacle avoidance is a key challenge in robotics applications. While previous work succeeds to provide excellent solutions for known environments, sensor-based motion planning in new and dynamic environments remains difficult. In this work we address sensor-based motion planning from a learning perspective. Motivated by recent advances in visual recognition, we argue the importance of learning appropriate representations for motion planning. We propose a new obstacle representation based on the PointNet architecture and train it jointly with policies for obstacle avoidance. We experimentally evaluate our approach for rigid body motion planning in challenging environments and demonstrate significant improvements of the state of the art in terms of accuracy and efficiency.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>In this paper, we present a new robotic system to perform defect inspection tasks over free-form specular surfaces. The autonomous procedure is achieved by a six-DOF manipulator, equipped with a line scan camera and a high-intensity lighting system. Our method first uses the object's CAD mesh model to implement a K-means unsupervised learning algorithm that segments the object's surface into areas with similar curvature. Then, the scanning path is computed by using an adaptive algorithm that adjusts the camera's ROI to observe regions with irregular shapes properly. A novel iterative closest point-based projection registration method that robustly localizes the object in the robot's coordinate frame system is proposed to deal with the blind spot problem of specular objects captured by depth sensors. Finally, an image processing pipeline automatically detects surface defects in the captured high-resolution images. A detailed experimental study with a vision-guided robotic scanning system is reported to validate the proposed methodology.</source>
+        <target>In this paper, we present a new robotic system to perform defect inspection tasks over free-form specular surfaces. The autonomous procedure is achieved by a six-DOF manipulator, equipped with a line scan camera and a high-intensity lighting system. Our method first uses the object's CAD mesh model to implement a K-means unsupervised learning algorithm that segments the object's surface into areas with similar curvature. Then, the scanning path is computed by using an adaptive algorithm that adjusts the camera's ROI to observe regions with irregular shapes properly. A novel iterative closest point-based projection registration method that robustly localizes the object in the robot's coordinate frame system is proposed to deal with the blind spot problem of specular objects captured by depth sensors. Finally, an image processing pipeline automatically detects surface defects in the captured high-resolution images. A detailed experimental study with a vision-guided robotic scanning system is reported to validate the proposed methodology.</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>18.0</source>
+        <target>18.0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
